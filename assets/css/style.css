@@ -1,5 +1,19 @@
-body{background-color:navajowhite}
-h1{font-size: 50px;color:darkgrey;text-align: center}
-h2{text-align: center}
-h3{ font-size: 28px; color: white; background-color:darkgrey}
-p{font-size: 20px}
+body{
+    background-color:navajowhite
+}
+header h1{
+    font-size: 50px;
+    color:darkgrey;
+    text-align: center
+}
+header h2{
+    text-align: center
+}
+main h2{ 
+    font-size: 28px; 
+    color: white; 
+    background-color:darkgrey
+}
+main p{
+    font-size: 20px
+}
