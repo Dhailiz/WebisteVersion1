@@ -1,5 +1,6 @@
 body{
-    background-color:navajowhite
+    background: linear-gradient(to bottom right, #25ffdb, #096092);
+    height: 100vh;
 }
 header h1{
     font-size: 50px;
@@ -17,3 +18,16 @@ main h2{
 main p{
     font-size: 20px
 }
+
+footer a{
+    background: #25ffdb;
+    display: block;
+    width: 150px;
+    text-align: center;
+    padding:5px;
+    color: #63626e;
+    text-decoration: none;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px black;
+    transition:  all .5s linear;
+  }
