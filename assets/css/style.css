@@ -2,10 +2,18 @@ body{
     background: linear-gradient(to bottom right, #25ffdb, #096092);
     height: 100vh;
 }
-header h1{
+
+
+#start h1 {
+    color: yellow;
+}
+
+
+
+header h1 {
     font-size: 50px;
     color:darkgrey;
-    text-align: center
+    text-align: center;
 }
 header h2{
     text-align: center
