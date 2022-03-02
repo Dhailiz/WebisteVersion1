@@ -82,8 +82,11 @@ article{
 
 
 
-#start h1 {
-    color: gray;
+#home header {
+  padding: 2%;
+  color: gray;
+  margin-bottom: 10px;
+  justify-content: space-between;
 }
 
 nav {
@@ -97,19 +100,11 @@ nav {
 nav a{ 
   font-size:x-large;
 }
-
-main {
-  padding: ;
+.logo{
+  background: url("/assets/img/Logo.PNG"); 
+  width: 60%;
+  background-size:contain
 }
-
-#home header {
-  background: gray;
-  padding: 2%;
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: space-between;
-}
-
 
 
 header h1 {
@@ -117,18 +112,18 @@ header h1 {
     color:darkgrey;
     text-align: center;
 }
-header h2{
-    text-align: center
-}
-main h2{ 
-    font-size: 28px; 
-    color: white; 
-    background-color:darkgrey
-}
-main p{
-    font-size: 20px
+
+
+main section {
+  display: flex;
+  gap: 10px; 
+  display: flex;
+  flex-direction: column;
 }
 
+main p{
+  font-size: 20px
+}
 footer a{
     background: #25ffdb;
     display: block;
