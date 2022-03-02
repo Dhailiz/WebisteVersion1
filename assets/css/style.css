@@ -10,7 +10,7 @@ body{
 }
 
 section{
-  /* background: linear-gradient(to bottom right, #25ffdb, #096092); */
+  background: linear-gradient(to bottom right, #25ffdb, #096092); 
   height: 100vh;
   font-family:'Open Sans', sans-serif;
   display: flex;
@@ -83,7 +83,31 @@ article{
 
 
 #start h1 {
-    color: yellow;
+    color: gray;
+}
+
+nav {
+  background: lightgray;
+  padding: 2%;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a{ 
+  font-size:x-large;
+}
+
+main {
+  padding: ;
+}
+
+#home header {
+  background: gray;
+  padding: 2%;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 
