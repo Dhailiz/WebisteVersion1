@@ -86,7 +86,7 @@ article{
   padding: 2%;
   color: gray;
   margin-bottom: 10px;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 nav {
@@ -100,10 +100,10 @@ nav {
 nav a{ 
   font-size:x-large;
 }
-.logo{
-  background: url("/assets/img/Logo.PNG"); 
-  width: 60%;
-  background-size:contain
+.logo img{ 
+  width: 200px;
+  display: flex;
+  justify-content:flex-start;
 }
 
 
