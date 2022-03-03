@@ -7,6 +7,7 @@ body{
   margin: 0;
   background: linear-gradient(to bottom right, #25ffdb, #096092);
   height: 100vh;
+  
 }
 
 section{
@@ -82,13 +83,27 @@ article{
 
 
 
+
+/*** HOME > HEADER ***/
 #home header {
   padding: 2%;
   color: gray;
   margin-bottom: 10px;
+  display: flex;
   justify-content: center;
+  align-items: center;
 }
 
+
+header h1 {
+  font-size: 50px;
+  color:darkgrey;
+  text-align: center;
+}
+
+
+
+/*** HOME > NAV ***/
 nav {
   background: lightgray;
   padding: 2%;
@@ -100,20 +115,30 @@ nav {
 nav a{ 
   font-size:x-large;
 }
-.logo img{ 
+
+
+
+
+/*** HOME > LOGO ***/
+/* .logo {
   width: 200px;
+  height: 200px;
+  background-image: url("../img/Logo.PNG");
+  background-size: cover;
+} */
+
+.logo img{ 
+  width: 100px;
   display: flex;
   justify-content:flex-start;
 }
 
 
-header h1 {
-    font-size: 50px;
-    color:darkgrey;
-    text-align: center;
-}
 
 
+
+
+/*** HOME > MAIN ***/
 main section {
   display: flex;
   gap: 10px; 
@@ -124,6 +149,10 @@ main section {
 main p{
   font-size: 20px
 }
+
+
+
+/*** HOME > FOOTER ***/
 footer a{
     background: #25ffdb;
     display: block;
