@@ -1,16 +1,21 @@
 
 
-/* aus Workshop */
+/*** GLOBAL ***/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap');
 
-body{
-  margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
   background: linear-gradient(to bottom right, #25ffdb, #096092);
-  height: 100vh;
-  
+  font-family: 'Roboto Mono', monospace;
 }
 
-section{
+
+
+/*** START ***/
+
+
+#start section {
   background: linear-gradient(to bottom right, #25ffdb, #096092); 
   height: 100vh;
   font-family:'Open Sans', sans-serif;
@@ -20,12 +25,12 @@ section{
   color:#63626e;
 }
 
-article{
+#start article {
   display:flex;
   max-width: 800px;
 }
 
-.bild{
+#start .bild {
   width: 60%;
   background: url("https://images.unsplash.com/photo-1581472723648-909f4851d4ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGNvZGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60");
   background-size: cover;
@@ -33,22 +38,22 @@ article{
   border-radius: 50px 0  0 50px; 
 }
 
-.info{
+#start .info {
   width:40%;
   background: white;
   padding: 5%;
   border-radius: 0 50px 50px 0;
 }
 
-.info h1{
+#start .info h1{
   font-size: 36px;
 }
 
-.info p{
+#start .info p{
   margin-bottom: 75px;
 }
 
-.info a {
+#start .info a {
   background: #25ffdb;
   display: block;
   width: 150px;
@@ -61,7 +66,7 @@ article{
   transition:  all .5s linear;
 }
 
-.info a:hover{
+#start .info a:hover{
   box-shadow: 0px 0px 5px black;
   transition: all .5s linear;
   transform: translate(4px, 4px);
@@ -71,20 +76,8 @@ article{
 
 
 
-
-
-
-
-
-
-
-
-/* alte CSS */
-
-
-
-
 /*** HOME > HEADER ***/
+
 #home header {
   padding: 2%;
   color: gray;
@@ -95,17 +88,26 @@ article{
 }
 
 
-header h1 {
+#home header h1 {
+  font-weight: 300;
   font-size: 50px;
-  color:darkgrey;
+  /* color:darkgrey; */
   text-align: center;
+}
+
+#block1,
+#block2,
+#block3,
+#block4 {
+  background-color: white;
+  margin-bottom: 30px;
 }
 
 
 
 /*** HOME > NAV ***/
 nav {
-  background: lightgray;
+  /* background: lightgray; */
   padding: 2%;
   margin-bottom: 10px;
   display: flex;
@@ -153,7 +155,7 @@ main p{
 
 
 /*** HOME > FOOTER ***/
-footer a{
+/* footer a{
     background: #25ffdb;
     display: block;
     width: 150px;
@@ -170,5 +172,5 @@ footer a{
     box-shadow: 0px 0px 5px black;
     transition: all .5s linear;
     transform: translate(4px, 4px);
-  }
+  } */
 
